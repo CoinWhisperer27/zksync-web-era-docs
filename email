@@ -1,0 +1,4 @@
+email_username = ''.join(random.choice(string.ascii_lowercase) for _ in range(8))
+email_domain = random.choice(["gmail.com", "yahoo.com", "outlook.com"])
+random_email = f"{email_username}@{email_domain}"
+print("Random Email Address:", random_email)
